@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "node server.js",
-    "build": "cross-env NODE_ENV=production next build",
+    "build": "npm run compile",
     "start": "node server.js"
   },
   "dependencies": {
