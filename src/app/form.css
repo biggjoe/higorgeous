@@ -1,0 +1,174 @@
+.input-form-control {
+    flex: 1;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0.03rem solid #aaa;
+    font-size: 17px;
+    color: rgb(0, 43, 79);
+    height: auto !important;
+}
+
+.input-text-control {
+    flex: 1;
+    padding: 20px 20px 13px 5px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #aaa;
+    font-size: 1.3rem;
+    color: rgb(0, 43, 79);
+    height: auto !important;
+    outline: 0 !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    height: auto !important;
+}
+
+input.input-form-control {
+    outline: 0;
+}
+
+.input-form-control.grp-with-btn {
+    border-radius: 5px 0 0 5px;
+    border: 0.03rem solid transparent
+}
+
+input.input-form-control,
+.input-text-control {
+    min-width: 20px !important;
+    max-width: 100%;
+}
+
+select.input-form-control,
+select.input-text-control {
+    max-width: 100%;
+}
+
+.input-form-control[aria-disabled],
+.input-form-control[disabled],
+.input-form-control:disabled {
+    background-color: #bbb;
+}
+
+.pay-symb {
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+.input input.input-form-control::placeholder,
+.input input.input-text-control::placeholder {
+    font-size: 90%;
+    font-weight: 300;
+    font-style: italic;
+    color: #a3a3a3;
+}
+
+.input-form-control.err {
+    border: 2px dashed red !important;
+}
+
+.input-form-control .mat-form-field-wrapper {
+    padding-bottom: 0 !important;
+}
+
+input.mat-input-element {
+    margin-top: 0 !important;
+}
+
+textarea {
+    min-height: 90px;
+    height: auto;
+}
+
+
+
+
+
+
+.input {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.input > label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 3px 5px;
+    line-height: 0.8;
+    font-size: 90% !important;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+}
+
+.input > label.textfeld-control {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: inline-block;
+    background-color: #fff;
+    padding: 3px 5px;
+    line-height: 0.8;
+    font-size: 90% !important;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+}
+
+.input select {
+    outline: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml, %3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cpath d='M11.636 16.05l-5.49-5.49a.5.5 0 010-.706l.708-.708a.5.5 0 01.707 0l4.437 4.438 4.438-4.438a.5.5 0 01.638-.057l.07.057.706.708a.5.5 0 010 .707l-5.49 5.49a.498.498 0 01-.31.144h-.103a.498.498 0 01-.31-.145z' fill='%23001E50'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 13px) 50%;
+}
+
+.form-sm {
+    border: 0.008rem solid #aaa;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    padding: 3px 6px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.form-control {
+    flex: 1;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0.03rem solid #dfdfdf;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    color: rgb(0, 43, 79);
+}
+
+.form-control[aria-disabled] {
+    background-color: #bbb;
+}
+
+.input input.form-control::placeholder {
+    font-size: 90%;
+    font-weight: 300;
+    font-style: italic;
+    color: #a3a3a3;
+}
+
+.form-control.err {
+    border: 2px dashed red !important;
+}
+
+.form-control .mat-form-field-wrapper {
+    padding-bottom: 0 !important;
+}
+
+input.mat-input-element {
+    margin-top: 0 !important;
+}

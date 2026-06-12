@@ -1,0 +1,187 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.dashboard-header {
+    height: 70px;
+    background-color: #dedede;
+    align-content: stretch;
+}
+
+.dashboard-content-wrapper {
+    height: 70px;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.spacer {
+    display: flex;
+    flex: 1 1;
+}
+
+.dashboard-logo {
+    height: 60px;
+    object-fit: contain;
+    display: inline-flex;
+    flex: 0 0;
+}
+
+.dashboard-logo img {
+    max-height: 100%;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    height: calc(100vh - 70px);
+}
+
+.side-navgation {
+    width: 300px;
+    flex-grow: 0;
+    max-height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-height: 100%;
+    overflow-y: auto;
+    padding: 0;
+    max-width: calc(100% - 300px);
+    position: relative;
+}
+
+.dashboard-page-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1 1;
+    max-height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    max-width: 100%;
+    min-height: calc(100% -50px);
+}
+
+.dashboard-page-title {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.side-navgation ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    list-style-type: none;
+    transition: .3s ease-in-out;
+}
+
+.side-navgation ul li {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+    transition: .3s ease-in-out;
+    position: relative;
+}
+
+.side-navgation ul li .toggle-span {
+    position: absolute;
+    right: 0;
+}
+
+.side-navgation ul li a {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    color: #444;
+    font-weight: 700;
+    transition: .3s ease-in-out;
+}
+
+.side-navgation ul li a:hover {
+    background-color: #efefef;
+    color: #111;
+    transition: .3s ease-in-out;
+}
+
+.side-navgation ul li:hover ul {
+    display: flex;
+    transition: .3s ease-in-out;
+}
+
+.side-navgation ul li ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-color: #efefef;
+    transition: .3s ease-in-out;
+}
+
+.side-navgation ul li ul li {
+    border-bottom: 1px solid #dcdcdc;
+    transition: .3s ease-in-out;
+}
+
+.side-navgation ul li ul li a {
+    padding: 10px 15px 8px 30px;
+    color: #333;
+    font-weight: 500;
+    font-size: 90%;
+}
+
+.side-navgation ul li ul li a:hover {
+    background-color: #ddd;
+    color: #000;
+    transition: .3s ease-in-out;
+}
+
+.dashboard-navgation {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-navgation ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-navgation ul li {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    padding: 6px;
+}
+
+.dashboard-navgation ul li a {
+    display: flex;
+    flex-direction: row;
+    min-height: 70px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #444;
+}
+
+.dashboard-navgation ul li a:hover {
+    background-color: #bbb;
+    color: #000;
+}

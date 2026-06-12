@@ -1,0 +1,143 @@
+.footer-main {
+    background-color: #000;
+    display: block;
+    padding: 30px 0;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+}
+
+
+ul.footer-links {
+    display: inline-flex;
+    flex: 1 1;
+    padding: 20px 0;
+}
+
+ul.footer-links li {
+    list-style-type: none;
+}
+
+ul.footer-links li a {
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding-right: 10px;
+    font-weight: 500;
+    letter-spacing: 1.6;
+    font-family: var(--font-clash-display);
+}
+
+ul.footer-links li a:hover {
+    color: #d4bb93;
+}
+
+@media (max-width: 850px) {
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid #777;
+    display: block;
+}
+
+/* */
+.footer-icon {
+    display: inline-flex;
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    margin: 20px 0;
+    filter: grayscale(0.9);
+}
+
+.footer-icon img {
+    height: 100%;
+}
+
+@media (max-width: 630px) {
+    .footer-icon {
+        filter: grayscale(0.6);
+    }
+}
+
+.social-links {
+    display: block;
+    margin-bottom: 0;
+}
+
+
+
+.social-links a {
+    display: flex;
+    font-size: 1.5rem;
+    color: #ddd;
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #000;
+    background-color: #d4bb93;
+}
+
+.lowest-links {
+    display: inline-flex;
+    padding: 10px 0;
+}
+
+.lowest-links a {
+    display: inline-flex;
+    padding-left: 10px;
+    font-size: 0.9rem;
+}
+
+.lowest-links a:hover {
+    color: #d4bb93;
+}
+
+.terms-policy {
+    font-style: italic;
+}
+
+.copyright {
+    font-size: 0.87rem;
+    color: #e0e0e0;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+@media (max-width: 630px) {
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link-category {
+        margin-bottom: 20px;
+    }
+
+    .site-desc {
+        flex-direction: column;
+    }
+
+    .info-desc {
+        padding: 20px 0px;
+    }
+}

